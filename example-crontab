@@ -2,4 +2,4 @@ SHELL=/bin/bash
 BASH_ENV=/container.env
 
 @reboot echo "Ready to crash!" > /proc/1/fd/1 2>/proc/1/fd/2
-*/5 * * * * /main.rb > /proc/1/fd/1 2>/proc/1/fd/2
+*/10 * * * * /main.rb > /proc/1/fd/1 2>/proc/1/fd/2
