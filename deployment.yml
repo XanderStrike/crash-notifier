@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: &n crash-checker
+  labels:
+    app: *n
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: *n
+  template:
+    metadata:
+      labels:
+        app: *n
+    spec:
+      containers:
+      - name: checker
+        image: xanderstrike/crash-checker
+        env:
+        - name: DISCORD_URL
+          value: <webhook url>
