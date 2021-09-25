@@ -3,6 +3,8 @@
 A daemon to notify discord webhooks when the
 [crashspace](https://blog.crashspace.org/) opens.
 
+![image](https://user-images.githubusercontent.com/1565303/134781532-d422190d-6288-4372-bc80-bcf901230545.png)
+
 ## usage
 
 Get a [Discord webhook URL](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
